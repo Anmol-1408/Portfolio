@@ -9,7 +9,7 @@ export default function Navbar() {
 
             {/* <!-- NAVIGATION MENU --> */}
             <ul className="nav-links">
-
+                
                 {/* <!-- USING CHECKBOX HACK --> */}
 
                 <input type="checkbox" id="checkbox_toggle" />
