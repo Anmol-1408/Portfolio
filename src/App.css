@@ -123,6 +123,8 @@ main {
 }
 
 .image {
+    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 50% 50% 50% 50% / 33% 33% 67% 67%;
     background: #8CABFF;
     text-align: center;
@@ -209,7 +211,7 @@ h1 {
     margin-bottom: 70px;
     text-align: center;
     color: aliceblue;
-    width: 700px;
+    width: 45vw;
     height: auto;
     background: rgba(140, 171, 255, 0.4);
     box-shadow: 6px 6px 12px #516394, -6px -6px 12px #c7f3ff;
@@ -232,20 +234,6 @@ h1 {
     font-size: 1.5rem;
 }
 
-.about-image {
-    border-radius: 50%;
-    background: rgba(140, 171, 255, 0.4);
-    box-shadow: 6px 6px 12px #516394, -6px -6px 12px #c7f3ff;
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
-    /* box-shadow: 24px 24px 48px #bebebe,
-        -24px -24px 48px #ffffff; */
-}
-
-.about-image img {
-    clip-path: circle(50.0% at 50% 50%);
-}
-
 .skills {
     display: inline-flex;
     margin: 20px;
@@ -253,7 +241,7 @@ h1 {
     margin-bottom: 70px;
     text-align: center;
     color: aliceblue;
-    width: 720px;
+    width: 45vw;
     height: auto;
     background: rgba(140, 171, 255, 0.4);
     box-shadow: 6px 6px 12px #516394, -6px -6px 12px #c7f3ff;
@@ -375,7 +363,7 @@ input[type="submit"]:hover {
     text-transform: uppercase;
     margin: 0 auto;
     margin-bottom: 3rem;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 }
 
 .footer .content {
@@ -441,11 +429,11 @@ footer hr {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 745px) {
 
     .about,
     .skills {
-        width: 400px;
+        width: 350px;
     }
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Profile from '../image/anmol.png'
 
 export default function About() {
     return (
@@ -7,8 +6,6 @@ export default function About() {
             <h1>About</h1>
             <div className="about">
                 <div className="about-content">
-                    <div className="about-image"><img height="280" width="280"
-                        src={Profile} alt="about-pic" /></div>
                     <p>Hey there! 👋 I'm Anmol, a passionate website maker and freelance enthusiast. As a first-year IT
                         engineering student, I've dived headfirst into the world of web development.
                     </p>
